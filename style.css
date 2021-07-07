@@ -1,0 +1,23 @@
+body{
+    background-size:cover ;
+}
+.heading{
+    background-color: orangered;
+    margin-top: 0px;
+}
+.note{
+    font-size:15px;
+    color:black;
+    }
+    #first_song_div{
+       float: left;
+       margin-left: 30px;
+
+    }
+    #second_song_div{
+        float: right;
+        margin-right: 30px;
+    }
+    canvas{
+        border: 5px solid white;
+    }
