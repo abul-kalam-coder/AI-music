@@ -37,7 +37,7 @@ score_right=0;
 }
   
     function play_sound(){
-        sound_2.play();
+        
 if(score_left>0.2 ){
     if(sound_2.isPlaying()==true){
         sound_2.stop();
