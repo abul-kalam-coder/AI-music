@@ -8,7 +8,7 @@ score_left=0;
 score_right=0;
     function preload(){
     sound_1=loadSound("Naruto-bgm-1.mp3");
-    sound_2=loadSound("end.mp3")
+    sound_2=loadSound("End.mp3")
     }
     function setup(){
     canvas=createCanvas(700,500);
