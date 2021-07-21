@@ -1,5 +1,5 @@
     sound_1="Naruto_bgm-1.mp3";
-    sound_2="End.mp3";
+    sound_2="y.mp3";
     left_y=0;
     left_x=0;
     right_x=0;
@@ -8,7 +8,7 @@ score_left=0;
 score_right=0;
     function preload(){
     sound_1=loadSound("Naruto-bgm-1.mp3");
-    sound_2=loadSound("End.mp3")
+    sound_2=loadSound("y.mp3")
     }
     function setup(){
     canvas=createCanvas(700,500);
@@ -37,6 +37,7 @@ score_right=0;
 }
   
     function play_sound(){
+        sound_2.play();
 if(score_left>0.2 ){
     if(sound_2.isPlaying()==true){
         sound_2.stop();
