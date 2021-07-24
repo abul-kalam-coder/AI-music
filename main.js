@@ -42,12 +42,21 @@ if(score_left>0.2 ){
     if(sound_2.isPlaying()==true){
         sound_2.stop();
     }
-    sound_1.play();
-    console.log("left");
+    if(sound_2.isPlaying()==false){
+        sound_1.play();
+        console.log("left");
+    }
 
     }
-console.log(left_y);
-}
+    if(score_right>0.2 ){
+        if(sound_1.isPlaying()==true){
+            sound_1.stop();
+        }
+        if(sound_1.isPlaying()==false){
+            sound_2.play();
+            console.log("right");
+        }
+}}
     function draw(){
         image(video,0,0,700,500);
         fill("red");
